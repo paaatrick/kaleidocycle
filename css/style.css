@@ -1,0 +1,108 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+p {
+  font-size: 0.85em;
+  margin: 0 0 0 5px;
+  padding: 0;
+  text-align: left;
+  line-height: 1.25em;
+}
+
+a {
+  text-decoration: none;
+  color: #3171ff;
+}
+
+.fallback {
+  color: #f4f4f4;
+  display: none;
+  background-image: url("../img/fallback.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 600px;
+  margin: auto;
+  padding-top: 200px;
+  font-size: 2.5em;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+}
+
+.menu-button {
+  border: 0;
+  background: #000000;
+  border-radius: 0;
+  color: #999999;
+  width: 40px;
+  height: 40px;
+  font-size: 1em;
+}
+
+.open {
+  background: #444444;
+}
+
+.menu-body {
+  background-color: #444444;
+  color: #999999;
+  max-width: 350px;
+  padding: 5px;
+  box-shadow: 0 0 10px black;
+}
+
+.color-palettes {
+  font-size: 0;
+}
+
+.palette {
+  cursor: pointer;
+  display: inline-block;
+  margin: 5px;
+}
+
+.header {
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 5px;
+  border-bottom: 1px solid #999999;
+  padding-bottom: 5px;
+}
+
+.footer {
+  font-size: 10px;
+  margin: 5px;
+}
+
+.swatch {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+}
+
+.tri {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 60px 60px;
+  border-color: transparent;
+  margin-left: -60px;  
+}
